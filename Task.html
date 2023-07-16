@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task Manager</title>
+  <link rel="stylesheet" type="text/css" href="TaskManager.css">
+</head>
+<body>
+  <h1>TO-DO App</h1>
+
+  <form id="task-form">
+    <input type="text" id="task-input" placeholder="Enter a task">
+    <button type="submit">Add Task</button>
+  </form>
+
+  <div id="task-list">
+    <h2>Tasks</h2>
+    <div id="filter-buttons">
+      <button id="all-btn" class="active">All</button>
+      <button id="pending-btn">Pending</button>
+      <button id="completed-btn">Completed</button>
+    </div>
+    <ul id="tasks"></ul>
+  </div>
+
+  <script src="TaskManager.js"></script>
+</body>
+</html>
